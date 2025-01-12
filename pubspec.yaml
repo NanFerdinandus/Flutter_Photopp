@@ -1,0 +1,72 @@
+name: ammonitepress
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.11.0+2
+  path_provider: ^2.1.5
+  image_picker: ^1.0.0
+  image_gallery_saver: ^2.0.3
+  geolocator: ^9.0.0
+  sensors_plus: ^2.0.0
+  device_info_plus: ^9.0.3
+  cupertino_icons: ^1.0.8
+  torch_light: ^1.1.0
+  path: ^1.8.0
+  http: ^1.0.0
+  sqflite: ^2.0.2
+  logging: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.2" 
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/startup_logo.jpg"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/startup_logo.jpg"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "assets/images/startup_logo.jpg"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/startup_logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/thema1.jpg
+    - assets/images/thema2.jpg
+    - assets/images/thema3.jpg
+    - assets/images/thema4.jpg
+    - assets/images/thema5.jpg
+    - assets/images/thema6.jpg
+    - assets/images/thema7.jpg
+    - assets/images/thema8.jpg
+    - assets/images/ammonitepress_logo.png
+    - assets/images/volle_maan_supermaan.jpg
+    - assets/images/startup_logo.jpg 
+
+flutter_native_splash:
+  image: assets/images/startup_logo.jpg
+  color: "#ffffff"
